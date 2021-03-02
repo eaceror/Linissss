@@ -42,7 +42,7 @@ header{
   align-items: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
-  /* width: 100%; */
+  width: 100%;
   margin-top: 80px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url("../images/adl.png") ;
   background-repeat: repeat;
@@ -112,22 +112,21 @@ img{
 footer{
   background-color: rgb(22, 6, 61);
   color: antiquewhite;
-  left: 0;
-  right: 0;
   /* height: 50px; */
   display: flex;
-  margin: auto;
+  /* margin: auto; */
   font-size: medium;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px 20px;
-  display: flex;
   justify-content: space-between;
   /* width: 100%; */
+  align-items: center;
+  box-sizing: border-box;
 }
 body{
-  left: 0;
-  right: 0;
-  margin: 0;
+  font-family:'Source Sans Pro', 'Times New Roman', Times, serif, sans-serif;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 .box-des{
@@ -156,29 +155,6 @@ h5 {
   text-align: center;
 }
 
-.heart:hover{
-  /* display: none; */
-  background-image: url("../images/heart.png");
-  background-size: contain;
-  width: 500px;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.heart{
-  /* display: none; */
-  width: 500px;
-  height: 500px;
-  display: inline-block;
-  background-image: url("../images/coquetoysho.jpeg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  
-}
-
-
 .xadult:hover{
   /* display: none; */
   background-image: url("../images/happy.jpg");
@@ -200,15 +176,6 @@ h5 {
   background-position: center;
   
 }
-.migif{
-padding-right: 20px;
-}
-
-.migif:hover {
-  width: 500px;
-  height: 500px;
-  background-image: url("../images/gifmio.gif");
-}
 
 strong{
   font-weight: lighter;
@@ -219,6 +186,3 @@ strong{
   font-size: xx-large;
 }
 
-/* .mara{
-  margin: 20px !important;
-} */
